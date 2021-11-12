@@ -40,7 +40,7 @@ body {
 ._container {
   max-width: 1050px;
   margin: 0px auto;
-  padding: 0 15px;
+  padding: 0 40px;
   box-sizing: content-box;
 }
 ._ibg {
@@ -90,7 +90,7 @@ body {
 .content-notfound__title {
   font-family: 'Space Mono';
   font-size: 64px;
-  line-height: 95px;
+  line-height: 146%;
   letter-spacing: -0.035em;
   padding: 0px 0px 36px 0px;
 }
@@ -99,17 +99,16 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 150%;
   letter-spacing: -0.035em;
   max-width: 370px;
   padding: 0px 0px 100px 0px;
 }
 .content-notfound__link {
-  font-family: Space Mono;
-  font-style: normal;
+  font-family: 'Space Mono';
   font-weight: 700;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 150%;
   letter-spacing: -0.035em;
   text-transform: uppercase;
   min-height: 68px;
@@ -123,8 +122,57 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 121%;
   text-align: center;
   color: #bdbdbd;
   padding: 80px 0px 20px 0px;
+}
+
+@media (max-width: 1024px) {
+  .content-notfound__title {
+    font-family: 'Space Mono';
+    font-size: 46px;
+    letter-spacing: 0px;
+    padding: 0px 55px 30px 0px;
+  }
+  .content-notfound__text {
+    font-size: 18px;
+  }
+  .content-notfound__link {
+    font-size: 12px;
+    padding: 20px 25px;
+  }
+  .footer__text {
+    font-size: 12px;
+  }
+  .notfound__title {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-notfound__title {
+    font-family: 'Space Mono';
+    font-size: 36px;
+    letter-spacing: 0px;
+    padding: 0px 55px 30px 0px;
+  }
+  .content-notfound__text {
+    font-size: 16px;
+  }
+  .content-notfound__link {
+    font-size: 12px;
+    padding: 20px 25px;
+  }
+  .footer__text {
+    font-size: 12px;
+  }
+  .notfound__title {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+@media (max-width: 452px) {
 }
