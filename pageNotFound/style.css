@@ -127,6 +127,10 @@ body {
   color: #bdbdbd;
   padding: 80px 0px 20px 0px;
 }
+.footer__link {
+  text-decoration: underline;
+  color: #bdbdbd;
+}
 
 @media (max-width: 1024px) {
   .content-notfound__title {
