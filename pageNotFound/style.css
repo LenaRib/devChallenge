@@ -85,8 +85,6 @@ body {
   flex: 1 1 auto;
   padding: 0px 0px 0px 60px;
 }
-.content-notfound {
-}
 .content-notfound__title {
   font-family: 'Space Mono';
   font-size: 64px;
@@ -102,7 +100,7 @@ body {
   line-height: 150%;
   letter-spacing: -0.035em;
   max-width: 370px;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 70px 0px;
 }
 .content-notfound__link {
   font-family: 'Space Mono';
